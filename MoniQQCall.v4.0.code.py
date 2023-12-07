@@ -6,6 +6,8 @@ import socket
 import json
 import logging
 # from re import T
+from kivy.app import App
+from kivy.uix.button import Button
 
 
 # 默认的warning级别，只输出warning以上的
@@ -225,7 +227,7 @@ def start():
         # listc = []
     import os
 
-    os.system("go-cqhttp.bat")
+    # os.system("go-cqhttp.bat")
 
     setDir('datag')
 
