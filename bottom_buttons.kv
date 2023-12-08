@@ -1,0 +1,17 @@
+#:kivy
+from bottom_buttons import BottomButtons
+<BottomButtons>:
+   BoxLayout:
+       orientation: 'horizontal'
+       size_hint: (1, None)
+       height: dp(50)
+       spacing: dp(10)
+       Button:
+           text: '按钮1'
+           on_press: root.on_button_press(1)
+       Button:
+           text: '按钮2'
+           on_press: root.on_button_press(2)
+       Button:
+           text: '按钮3'
+           on_press: root.on_button_press(3)
